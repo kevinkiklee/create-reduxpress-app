@@ -1,5 +1,5 @@
 {
-  "name": "create-reduxpress-app client",
+  "name": "create-reduxpress-app-client",
   "version": "0.1.1",
   "private": true,
   "proxy": "http://localhost:3001/",
