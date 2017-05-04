@@ -15,7 +15,6 @@
     "client": "babel-node start-client.js",
     "postinstall": "cd client && npm install",
     "build": "cd client && npm run build",
-    "run": "npm run server"
   },
   "devDependencies": {
     "concurrently": "3.1.0",
