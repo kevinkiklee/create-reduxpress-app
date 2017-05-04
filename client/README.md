@@ -1,6 +1,6 @@
-# Create-Reduxpress-App
+# Create-Reduxpress-App Client
 
-This is the React/Redux frontend `client` folder.
+React/Redux frontend client
 
 ## Implementation
 
