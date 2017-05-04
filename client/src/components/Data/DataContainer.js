@@ -14,7 +14,7 @@ class DataContainer extends React.Component {
   }
 
   componentDidMount() {
-    this.props.fetchData('/api/food?q=carrots')
+    this.props.fetchData('/api/quotes')
       .then(() => this.setState({ dataLoaded: true }));
   }
 
