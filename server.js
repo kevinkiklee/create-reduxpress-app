@@ -9,6 +9,7 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'));
 }
 
+// SAMPLE API ENDPOINT
 app.get('/api/quotes', (req, res) => {
   console.log('Requested received at /api/quotes');
   res.sendFile(__dirname + '/data/quotes.json', () => {

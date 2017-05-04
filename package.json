@@ -12,7 +12,7 @@
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "babel-node server.js",
     "client": "babel-node client.js",
-    "postinstall": "cd client && npm install && npm run build"
+    "build": "cd client && npm install && npm run build"
   },
   "devDependencies": {
     "concurrently": "3.1.0",
